@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>New OS for everyone</title>
+    <link rel="shortcut icon" type="image/png" href="Linux.png">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    
+    
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="navbar-wrapper">
+       <div class="container"> 
+       
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid" id="hd">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="http://www.ubuntu.com/">
+                        <img alt="Brand" src="Linux.png">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="responsive-menu">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Linux<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://www.ubuntu.com/download/desktop">Ubuntu</a></li>
+                                <li><a href="https://www.debian.org/">Debian</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://xubuntu.org/">Xubuntu</a></li>
+                                <li><a href="http://lubuntu.net/">Lubuntu</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                                <li><a href="https://twitter.com/">Twitter</a></li>
+                                <li><a href="http://www.linux.com/community/forums">Forums</a></li>
+                                <li><a href="http://vk.com/">VK</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://www.linux.com/news/hardware">Hardware</a></li>
+                        <li><a href="http://www.linux.com/learn/linux-certifications">Certification</a></li>
+                    </ul>
+                    <div class="navbar-right">
+                        <a class="navbar-brand" href="http://www.ubuntu.com/download">Linux - it's time for new OS</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+   </div>
+   
+   <div id="carousel" class="carousel slide">
+      
+       <!--Индикаторы слайдов-->
+       <ol class="carousel-indicators">
+           <li class="active" data-target="#carousel" data-slide-to="0"></li>
+           <li data-target="#carousel" data-slide-to="1"></li>
+           <li data-target="#carousel" data-slide-to="2"></li>
+       </ol>
+       
+       <!--Слайды-->
+       <div class="carousel-inner">
+           <div class="item active">
+               <img src="sliders/slider_1.jpg" alt="slide_1">
+                <div class="carousel-caption">
+                    <p>Change everything with one click</p>
+                    <p><a class="btn btn-lg btn-warning" id="try" href="https://github.com/torvalds/linux" role="button">TRY IT FREE.</a></p>
+                </div>
+           </div>
+           <div class="item">
+               <img src="sliders/slide_2.jpg" alt="slide_2">
+               <div class="carousel-caption">
+                   <p>Open an amazing world</p>
+                   <table id="icons">
+                      <tr>
+                          <td><img src="http://linux70.ru/logo_d/ubuntu.png" alt="ubuntu" title="Ubuntu" onmouseover="this.width=170;this.height=170" onmouseout="this.width=128;this.height=128"></td>
+                          <td><img src="http://linux4user.narod.ru/images/dist-logo/debian.png" alt="debian" title="Debian" onmouseover="this.width=170;this.height=170" onmouseout="this.width=128;this.height=128"></td>
+                          <td><img src="http://iconspot.ru/image.php?width=128&height=128&cropratio=none&valign=middle&align=center&id=15196" alt="centos" title="Centos" onmouseover="this.width=170;this.height=170" onmouseout="this.width=128;this.height=128"></td>
+                          <td><img src="http://www.iconsearch.ru/uploads/icons/nuove/128x128/redhat.png" alt="red-hat" title="Red Hat" onmouseover="this.width=170;this.height=170" onmouseout="this.width=128;this.height=128"></td>
+                          <td><img src="http://www.qupzilla.com/images/os/fedora.png" alt="fedora" title="Fedora" onmouseover="this.width=170;this.height=170" onmouseout="this.width=128;this.height=128"></td>
+                      </tr>
+                   </table>
+               </div>
+           </div>
+           <div class="item">
+               <img src="sliders/slide_7.jpg" alt="slide_3">
+               <div class="carousel-caption">
+                   <p>Use your own forces</p>
+                   <i class="fa fa-mobile fa-3x"></i>
+                   <i class="fa fa-laptop fa-3x"></i>
+                   <i class="fa fa-desktop fa-3x"></i>
+                   <i class="fa fa-server fa-3x"></i>
+               </div>
+           </div>
+       </div>
+       
+       <!--Стрелки переключения слайдов-->
+       <a href="#carousel" class="left carousel-control" data-slide="prev">
+           <span class="glyphicon glyphicon-chevron-left"></span>
+       </a>
+       <a href="#carousel" class="right carousel-control" data-slide="next">
+           <span class="glyphicon glyphicon-chevron-right"></span>
+       </a>
+   </div>
+   
+   
+   <div class="panel panel-warning">
+       <div class="panel-body">
+          
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-4">
+                       <h3 class="strong">Ready for smartphones</h3>
+                       <p>Ubuntu on phones is now ready for the mobile industry.</p>
+                       <a href="http://www.ubuntu.com/phone"><img src="photo_1.png" alt="phone"></a>
+                   </div>
+                   <div class="col-md-4">
+                       <h3 class="strong">Get Ubuntu Core</h3>
+                       <p>Start using the snappy Ubuntu Core for the cloud and all your things.</p>
+                       <a href="http://www.ubuntu.com/internet-of-things"><img width="170" src="terminal.png" alt="core"></a>
+                   </div>
+                   <div class="col-md-4">
+                       <h3 class="strong">Get Ubuntu Desktop</h3>
+                       <p>Download Ubuntu 15.04, the latest Ubuntu for your laptops and PCs.</p>
+                       <a href="http://www.ubuntu.com/download/desktop"><img width="290" src="photo_3.png" alt="desktop"></a>
+                   </div>
+               </div>
+
+           
+         
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yVpbFMhOAwE" allowfullscreen></iframe>
+            </div>
+           
+           <hr>
+           
+           <div class="media">
+              <h1>
+                  <span class="fa-stack fa-lg">
+                      <i class="fa fa-square fa-stack-2x"></i>
+                      <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+                  </span>
+                  More from around the Linux</h1>
+              <br><br>
+               <div class="media-left media-middle">
+                   <a href="http://www.linux.com/news/embedded-mobile/mobile-linux/859972--university-of-cambridge-study-finds-87-of-android-devices-are-insecure">
+                       <img class="media-object" src="media/media_1.png" alt="">
+                   </a>
+               </div>
+               <div class="media-body">
+                   <h3 class="media-heading">University of Cambridge Study Finds 87% of Android Devices Are Insecure</h3>
+                   <p>Study blames OEMs for a lack of updates; ranks Nexus devices as the most secure. It's easy to see that the Android ecosystem currently has  a rather lax policy  toward security, but  a recent study  from the University of Cambridge put some hard numbers to Android's security failings.</p>
+               </div>
+           </div>
+           
+           <div class="media">
+               <div class="media-left media-middle">
+                   <a href="http://www.linux.com/news/embedded-mobile/mobile-linux/859882-ubuntu-phones-will-run-any-linux-application-on-top-of-unity-8">
+                       <img class="media-object" src="media/media_2.jpg" alt="">
+                   </a>
+               </div>
+               <div class="media-body">
+                   <h3 class="media-heading">Ubuntu Phones Will Run Any Linux Application on Top of Unity 8</h3>
+                   <p>We have some hot news from the Ubuntu land, as Canonical's Michael Hall has just teased us with a photo from his Nexus 4 smartphone running the latest development version of the Ubuntu Touch mobile operating system. </p>
+               </div>
+           </div>
+           
+           <div class="media">
+                <div class="media-left media-middle">
+                   <a href="http://www.linux.com/news/software/applications/859659-libreoffice-503-to-bring-gtk-docx-fixes-and-more">
+                       <img class="media-object" src="media/media_6.jpg" alt="">
+                   </a>
+               </div>
+               <div class="media-body">
+                   <h3 class="media-heading">LibreOffice 5.0.3 to Bring GTK+, DOCX Fixes, and More</h3>
+                   <p>The Document Foundation has revealed that the first Release Candidate for the LibreOffice 5.0.3 branch has been released and is now available for download.</p>
+               </div>
+           </div>
+           
+           <div class="media">
+                <div class="media-left media-middle">
+                   <a href="https://www.linux.com/news/enterprise/biz-enterprise/860526-red-hat-acquires-ansible">
+                       <img class="media-object" src="media/media_7.png" alt="">
+                   </a>
+               </div>
+               <div class="media-body">
+                   <h3 class="media-heading">Red Hat Acquires Ansible</h3>
+                   <p>Red Hat has announced that it is acquiring Ansible, the company behind the Ansible configuration management system. "Ansible's automation capabilities, together with Red Hat's existing management portfolio, will help users drive down the cost and complexity of deploying.</p>
+               </div>
+           </div>
+           
+           <div class="media">
+                <div class="media-left media-middle">
+                   <a href="https://www.linux.com/news/software/applications/860508-ubuntu-mate-1510-for-raspberry-pi-2-to-land-next-week">
+                       <img class="media-object" src="media/media_8.jpg" alt="">
+                   </a>
+               </div>
+               <div class="media-body">
+                   <h3 class="media-heading">Ubuntu MATE 15.10 for Raspberry Pi 2 to Land Next Week</h3>
+                   <p>The Ubuntu MATE project posts the details about the donations they've received each month, detailing who gave money and where they are going. They've been doing this for quite some time, and many times they used those funds for donations to other projects.</p>
+               </div>
+           </div>
+           
+           <br>
+           <p><a class="more" href="https://www.linux.com/"><i class="fa fa-cog fa-spin"></i> LEARN MORE</a></p>
+           <br>
+           
+    </div>
+           
+           <div class="jumbotron">
+           <div class="container">
+             <div class="row">
+              <h2 class="shadow">Let Us Inspire You</h2>
+              <p class="shadow">Subscribe to a monthly newsletter, packed with<br>
+                   creative tips, discoveries and photography deals.</p><br>
+                   <form class="navbar-form" action="#" method="get">
+                      <div class="form-group">
+                           <input type="text" class="form-control" placeholder="Your Name">
+                           <input type="text" class="form-control" placeholder="Your Email">
+                       </div>
+                   
+                       <button type="submit" class="btn vtn-default">Submit</button>
+                   </form>
+               </div>
+               </div>
+           </div>
+           
+       </div>
+       
+       <div class="panel-footer">
+          <div class="container-fluid">
+              <div class="row"> 
+                  <div class="col-md-6"> 
+                   <div class="well well-lg">
+                       <h4 class="dnld">Downloads:</h4>
+                           <div class="list-group">
+                               <a class="list-group-item" href="#">
+                                   <span class="badge" style="color: black">most popular</span><i class="fa fa-linux"></i>&nbsp; Ubuntu x64</a>
+                                   <a class="list-group-item" href="#"><i class="fa fa-linux"></i>&nbsp; Ubuntu x32</a>
+                                   <a class="list-group-item" href="#"><i class="fa fa-linux"></i>&nbsp; Debian amd64</a>
+                                   <a class="list-group-item" href="#"><i class="fa fa-linux"></i>&nbsp; Debian i386</a>
+                                   <a class="list-group-item" href="#"><i class="fa fa-linux"></i>&nbsp; Xubuntu</a>
+                                   <a class="list-group-item" href="#"><i class="fa fa-linux"></i>&nbsp; Lubuntu</a>
+                           </div>
+                        </div>
+                       </div>
+                       
+                    <div class="col-md-2 col-md-offset-2 text-right">   
+                        <img src="linux_penguin.jpg" alt="penguin" class="img-rounded">
+                    </div>
+    
+                    <div class="col-md-2 text-center">
+                        <img src="art.jpg" alt="art" class="img-rounded">
+                    </div>
+                       
+                    </div>
+                    </div>
+                <p>&copy; Copyright New OS for everyone, All Rights Reserved</p>
+                <p>Design By <span>Vladyslav Voloshyn</span></p>    
+            </div>
+        </div>
+           
+            
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    
+    <script language="JavaScript">
+        function noresize()
+        {
+            window.resizeTo(600, 400)
+        }
+        window.onload=noresize()
+    </script>
+    
+  </body>
+</html>
